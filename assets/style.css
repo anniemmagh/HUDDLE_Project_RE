@@ -31,10 +31,13 @@ nav {
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: .3s ease-in;
   }
   nav button:hover {
-    color: hsl(321, 100%, 78%);
+    color: white;
+    font-weight:bold;
     border: 1px solid hsl(321, 100%, 78%);
+    background-color: hsl(322, 100%, 66%);
   }
   header {
     max-width: 1100px;
@@ -58,6 +61,7 @@ nav {
     border-radius: 2rem;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    transition: .3s ease;
   }
   .section_btn:hover{
     background: hsl(321, 100%, 78%);
