@@ -1,1 +1,2 @@
-# HUDDLE_Project_RE
+# huddle_project
+# RE:educate
