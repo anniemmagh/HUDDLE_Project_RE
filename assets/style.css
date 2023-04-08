@@ -88,3 +88,32 @@ nav {
 .statistic p {
     opacity: 0.6;
 }
+.grow {
+  margin: 5rem auto;
+}
+.text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+  padding: 5rem;
+}
+.first,
+.third {
+  background: hsl(207, 100%, 98%);
+}
+.text img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.first img,
+.third img {
+  order: 2;
+}
+.first section,
+.third section {
+  order: 1;
+}
+.text h2 {
+  font-size: 2.5rem;
+}
