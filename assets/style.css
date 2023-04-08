@@ -117,3 +117,97 @@ nav {
 .text h2 {
   font-size: 2.5rem;
 }
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  margin: 10rem auto;
+}
+.question h2 {
+  font-size: 2rem;
+}
+.footer {
+  padding: 5rem;
+  background: hsl(192, 100%, 9%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.about,
+.sign-in section {
+  max-width: 420px;
+  margin: 0 1rem;
+}
+#footer-logo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg)
+    brightness(103%) contrast(103%);
+  margin-bottom: 1.5rem;
+}
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+.email a {
+  color: white;
+  text-decoration: none;
+}
+.email a:hover {
+  color: rgb(52, 204, 250);
+  text-decoration: underline;
+}
+.media-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin: 3rem 0 1rem 0;
+}
+.media-icons i {
+  color: white;
+  font-size: 2.5rem;
+}
+.media-icons i:hover {
+  color: rgb(52, 204, 250);
+}
+.sign-in h3 {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+.sign-in form {
+  display: grid;
+  grid-template-columns: minmax(auto, 400px) auto;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.infield input {
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+}
+.infield #error {
+  color: hsl(0, 100%, 63%);
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  display: none;
+}
+.sign-in form button {
+  color: white;
+  background: hsl(322, 100%, 66%);
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.sign-in form button:hover {
+  background: hsl(321, 100%, 78%);
+}
